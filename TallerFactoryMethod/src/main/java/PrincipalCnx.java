@@ -20,11 +20,11 @@ public class PrincipalCnx {
                 cnx = concreteFactory.factoryCnx(TipoCnx.ORACLE);
 
             }if (var==2) {
-            System.out.println("Usuario registrado en MongoDB");
-            cnx = concreteFactory.factoryCnx(TipoCnx.MONGO);
+                System.out.println("Usuario registrado en MongoDB");
+                cnx = concreteFactory.factoryCnx(TipoCnx.MONGO);
 
 
-        } if(var==3) {
+            } if(var==3) {
                 System.out.println("\n");
                 System.out.println("-----------------------------");
                 System.out.println("------ Ópcion Invalida ------");
